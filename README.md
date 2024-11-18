@@ -18,6 +18,9 @@ My Arch-linux dotfiles, and hyprland setup
 - systemctl enable --now systemd-networkd
 - systemctl enable --now systemd-resolved
 
+## Date configuration
+- timedatectl set-timezone Europe/Zurich
+
 ## SDDM-Theme configuration
 Theme configuration: /usr/share/sddm/themes/eucalyptus-drop/theme.conf
 Add Backgrounds: /usr/share/sddm/themes/eucalyptus-drop/Backgrounds
@@ -50,6 +53,7 @@ Add Backgrounds: /usr/share/sddm/themes/eucalyptus-drop/Backgrounds
 - qt5-wayland
 - qt6-wayland
 - awesome-terminal-fonts
+- ttf-jetbrains-mono-nerd
 
 ## AUR-Packages
 - sddm-eucalyptus-drop
