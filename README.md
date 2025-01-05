@@ -8,10 +8,7 @@ My Arch-linux dotfiles, and hyprland setup
    * Config for two Monitors 2560x1440 via DisplayPort
 * Nvidia proprietary drivers
 * Networkd (ethernet and wifi via dhcp)
-
-## Things you will need, if your not using a default desktop
-- Notification daemon = Options:["dunst", "mako", "fnott", "swaync"]
-(Used dunst here)
+* Notification daemon = "dunst"
 
 ## Systemd-services
 - systemctl enable --now iwd
@@ -20,6 +17,9 @@ My Arch-linux dotfiles, and hyprland setup
 
 ## Date configuration
 - timedatectl set-timezone Europe/Zurich
+
+## For Keyring settings check this page
+https://wiki.archlinux.org/title/GNOME/Keyring#PAM_step
 
 ## SDDM-Theme configuration
 Theme configuration: /usr/share/sddm/themes/eucalyptus-drop/theme.conf
@@ -57,3 +57,4 @@ Add Backgrounds: /usr/share/sddm/themes/eucalyptus-drop/Backgrounds
 
 ## AUR-Packages
 - sddm-eucalyptus-drop
+- hyprsunset
